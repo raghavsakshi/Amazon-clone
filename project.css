@@ -1,7 +1,6 @@
-margin: 0;
-{
+ *{margin: 0;
   font-family: Arial;
-  border: border-box;
+  box-sizing: border-box;
 }
 .navbar{
   height: 60px;
@@ -145,7 +144,7 @@ span{
   background-color: #e2e7e6;
 }
 .box{
-  /border: 2px solid black;/
+  border: 2px solid black;
   height: 400px;
   width: 24%;
   background-color: white;
